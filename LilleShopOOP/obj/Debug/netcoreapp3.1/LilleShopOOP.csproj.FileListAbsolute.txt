@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\bin\Debug\netcoreapp3.1\LilleShopOOP.exe
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\bin\Debug\netcoreapp3.1\LilleShopOOP.deps.json
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\bin\Debug\netcoreapp3.1\LilleShopOOP.runtimeconfig.json
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\bin\Debug\netcoreapp3.1\LilleShopOOP.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\bin\Debug\netcoreapp3.1\LilleShopOOP.dll
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\bin\Debug\netcoreapp3.1\LilleShopOOP.pdb
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.AssemblyInfo.cs
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.dll
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.pdb
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.genruntimeconfig.cache
