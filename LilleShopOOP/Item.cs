@@ -43,11 +43,16 @@ namespace LilleShopOOP
                 itemPrice = value;
             }
         }
-        public Item(int id, string description, double price)
+        public Item(string description, double price)
         {
-            itemsId = id;
+            itemsId = Id();
             itemDiscription = description;
             itemPrice = price;
+        }
+        public static int Id()
+        {
+            int temp = 0;
+            return temp++;
         }
     }
 }
