@@ -7,6 +7,7 @@ namespace LilleShopOOP
     class Item
     {
         private int itemsId;
+        private string itemName;
         private string itemDiscription;
         private double itemPrice;
         
@@ -20,6 +21,17 @@ namespace LilleShopOOP
             set
             {
                 itemsId = value;
+            }
+        }
+        public string ItemName
+        {
+            get
+            {
+                return itemName;
+            }
+            set
+            {
+                itemName = value;
             }
         }
         public string ItemDiscription
@@ -44,9 +56,10 @@ namespace LilleShopOOP
                 itemPrice = value;
             }
         }
-        public Item(string description, double price, int id)
+        public Item(string name, string description, double price, int id)
         {
             itemsId = id;
+            itemName = name;
             itemDiscription = description;
             itemPrice = price;
         }
