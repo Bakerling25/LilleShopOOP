@@ -1,28 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace LilleShopOOP
 {
     class MakeOrder
     {
-        public static void Order(Customer customer)
+        private List<Customer> customers;
+        private List<Item> items;
+
+        public List<Customer> Customers { get { return customers; } set { customers = value; } }
+        public List<Item> Items { get { return items; } set { items = value; } }
+
+        public MakeOrder(List<Customer> customers, List<Item> items)
         {
-            
-            foreach(Item item in customer.Items)
+            Customers = customers;
+            Items = items;
+        }
+        public void printOrder()
+        {
+            foreach (Customer customer in customers)
             {
-                Console.WriteLine("KundeNavn: " + customer.Name + "\nVareId: " + item.ItemId + "\nVarebeskrivelse: " + item.ItemDiscription + "\nPris: " + item.ItemPrice + " kr.");
+                customer.Items = items;
+                Console.WriteLine("KundeNavn: " + customer.Name + " KundeId: " + customer.CustomerId);
+                foreach (Item item in customer.Items)
+                {
+                    Console.WriteLine("VareID: " + item.ItemId + " VareBeskrivelse: " + item.ItemDiscription + " Pris: " + item.ItemPrice + " kr.");
+                }
             }
             
         }
-        public static double TotalAmount(Customer customer) 
-        {
-            double totalAmount = 0;
-            foreach (var item in customer.Items)
-            {
-                totalAmount += item.ItemPrice;
-            }
-            return totalAmount;
-        }
+        
     }
 }

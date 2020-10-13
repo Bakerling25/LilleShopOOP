@@ -10,6 +10,7 @@ namespace LilleShopOOP
         private string name;
         private string customerEmail;
         private List<Item> items;
+        
 
         public int CustomerId
         {
@@ -55,14 +56,17 @@ namespace LilleShopOOP
                 items = value;
             }
         }
-        public Customer(int id, string name, string email, List<Item> items)
+        public Customer(string name, string email, int id)
         {
             CustomerId = id;
             Name = name;
             CustomerEmail = email;
-            Items = items;
-            
         }
-        
+        public Customer(string name, int id)
+        {
+            CustomerId = id;
+            Name = name;
+        }
+
     }
 }
