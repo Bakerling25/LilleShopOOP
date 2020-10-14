@@ -11,3 +11,6 @@ C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\Li
 C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.dll
 C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.pdb
 C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.genruntimeconfig.cache
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\bin\Debug\netcoreapp3.1\LittleShop_CL.dll
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\bin\Debug\netcoreapp3.1\LittleShop_CL.pdb
+C:\Users\Admin\source\repos\LilleShopOOP\LilleShopOOP\obj\Debug\netcoreapp3.1\LilleShopOOP.csproj.CopyComplete

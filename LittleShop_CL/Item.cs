@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LilleShopOOP
 {
-    class Item
+    public class Item
     {
         private int itemsId;
         private string itemName;
