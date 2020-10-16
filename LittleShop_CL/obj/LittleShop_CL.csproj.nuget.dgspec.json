@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj": {}
+    "C:\\Users\\Thomas\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj": {
+    "C:\\Users\\Thomas\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj",
         "projectName": "LittleShop_CL",
-        "projectPath": "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj",
-        "packagesPath": "C:\\Users\\HFGF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LittleShop_CL\\obj\\",
+        "projectPath": "C:\\Users\\Thomas\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj",
+        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thomas\\source\\repos\\LilleShopOOP\\LittleShop_CL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HFGF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "c8h79MXV1p2M8Fb3IymB70GDcjxTMfK35AJ1FGagSCrqwf4IPJ09L7HVU505CKQ1s6nwRENYTsDvnlklMJRMZw==",
+  "dgSpecHash": "/7yn8/B6TcWef6CCBQ2x9jxCfORBCDA5F6Lsb6p+mneWS2Uk816TumJFkCT+JMDvGdgXNYjbdJS4rfd0CFzJEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj",
+  "projectFilePath": "C:\\Users\\Thomas\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\HFGF\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Thomas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Thomas\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
