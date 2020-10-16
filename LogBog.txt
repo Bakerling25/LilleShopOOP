@@ -1,2 +1,5 @@
 14/10:
 Arbejdet på uml diagram og gjort klar til at bruge winforms.
+
+15/10
+Var syg.
