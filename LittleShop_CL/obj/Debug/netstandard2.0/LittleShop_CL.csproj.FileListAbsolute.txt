@@ -7,3 +7,12 @@ C:\Users\Admin\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\
 C:\Users\Admin\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.dll
 C:\Users\Admin\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.pdb
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\bin\Debug\netstandard2.0\LittleShop_CL.deps.json
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\bin\Debug\netstandard2.0\LittleShop_CL.dll
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\bin\Debug\netstandard2.0\LittleShop_CL.pdb
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.csprojAssemblyReference.cache
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.AssemblyInfoInputs.cache
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.AssemblyInfo.cs
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.dll
+C:\Users\Thomas\source\repos\LilleShopOOP\LittleShop_CL\obj\Debug\netstandard2.0\LittleShop_CL.pdb
