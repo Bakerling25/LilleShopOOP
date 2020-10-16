@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\HFGF\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\LilleShopOOP\\LitlleShop_WF\\LitlleShop_WF.csproj",
+      "projectUniqueName": "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LitlleShop_WF\\LitlleShop_WF.csproj",
       "projectName": "LitlleShop_WF",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\LilleShopOOP\\LitlleShop_WF\\LitlleShop_WF.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\LilleShopOOP\\LitlleShop_WF\\obj\\",
+      "projectPath": "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LitlleShop_WF\\LitlleShop_WF.csproj",
+      "packagesPath": "C:\\Users\\HFGF\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LitlleShop_WF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HFGF\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj"
+            "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj": {
+              "projectPath": "C:\\Users\\HFGF\\source\\repos\\LilleShopOOP\\LittleShop_CL\\LittleShop_CL.csproj"
             }
           }
         }
