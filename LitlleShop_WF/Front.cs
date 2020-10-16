@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LitlleShop_WF
 {
-    public partial class Form1 : Form
+    public partial class Front : Form
     {
-        public Form1()
+        public Front()
         {
             InitializeComponent();
         }

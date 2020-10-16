@@ -1,6 +1,6 @@
 ﻿namespace LitlleShop_WF
 {
-    partial class Form1
+    partial class Front
     {
         /// <summary>
         ///  Required designer variable.
