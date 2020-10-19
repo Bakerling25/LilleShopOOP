@@ -18,16 +18,14 @@ namespace LilleShopOOP
             Customers = customers;
             Items = items;
         }
-        public string GetOrder()
+        public MakeOrder()
         {
-            string tempCust = "";
-            foreach (Customer customer in customers)
-            {
-                tempCust = "Kunde email: " + customer.CustomerEmail;
-                return tempCust;
-            }
-            return tempCust;
+
         }
-        
+        //public Customer GetOrder()
+        //{
+
+        //}
+
     }
 }

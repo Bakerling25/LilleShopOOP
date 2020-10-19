@@ -1,10 +1,11 @@
-﻿using System;
+﻿using LittleShop_CL;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace LilleShopOOP
 {
-    public class Item
+    public class Item:ItemAutoIncrement
     {
         private int itemsId;
         private string itemName;
@@ -56,13 +57,21 @@ namespace LilleShopOOP
                 itemPrice = value;
             }
         }
-        public Item(string name, string description, double price, int id)
+        public Item(string name, string description, double price)
         {
-            itemsId = id;
+            itemsId = Id();
             itemName = name;
             itemDiscription = description;
-            itemPrice = price;
+            itemPrice = RoundPrice(price);
         }
-        
+        public override int Id()
+        {
+            return base.Id();
+        }
+        public double RoundPrice(double price)
+        {
+            return Math.Round(price,2);
+        }
+
     }
 }

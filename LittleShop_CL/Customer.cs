@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace LilleShopOOP
 {
-     public class Customer
+    public class Customer:CustomerAutoIncrement
     {
         private int customerId;
-        private string name;
+        private string firstName;
+        private string lastName;
         private string customerEmail;
         private List<Item> items;
         
@@ -23,15 +22,26 @@ namespace LilleShopOOP
                 customerId = value;
             }
         }
-        public string Name
+        public string FirstName
         {
             get
             {
-                return name;
+                return firstName;
             }
             set
             {
-                name = value;
+                firstName = value;
+            }
+        }
+        public string LastName
+        {
+            get
+            {
+                return lastName;
+            }
+            set
+            {
+                lastName = value;
             }
         }
         public string CustomerEmail
@@ -56,16 +66,34 @@ namespace LilleShopOOP
                 items = value;
             }
         }
-        public Customer(string name, string email, int id)
+        public Customer(string firstName,string lastName, string email)
         {
-            CustomerId = id;
-            Name = name;
+            CustomerId = Id();
+            FirstName =firstName;
+            LastName = lastName;
             CustomerEmail = email;
         }
-        public Customer(string name, int id)
+        public Customer(string firstName,string lastName)
         {
-            CustomerId = id;
-            Name = name;
+            CustomerId = Id();
+            FirstName = firstName;
+            LastName = lastName;
+        }
+        public string FullName()
+        {
+            return FirstName + " " + LastName;
+        }
+        public override string ToString()
+        {
+            return "Kunde ID: " + customerId + " " + FullName();
+        }
+        public override int Id()
+        {
+            return base.Id();
+        }
+        public string DeletedCustomer()
+        {
+            return FullName() + " er blevet slette";
         }
 
     }

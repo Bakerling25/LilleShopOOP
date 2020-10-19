@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LilleShopOOP
+namespace LittleShop_CL
 {
-    public class AutoIncrement
+    public abstract class ItemAutoIncrement
     {
-        int id = 1;
-        public int Id()
+        static int id = 1;
+        public virtual int Id()
         {
-            
+
             return id++;
         }
     }

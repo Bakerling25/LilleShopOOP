@@ -3,3 +3,7 @@ Arbejdet på uml diagram og gjort klar til at bruge winforms.
 
 15/10
 Var syg.
+
+19/10
+
+Har fået lavet noget gui og har problemer med datagridviewet i og med at jeg ikke kan indsætte i det eller retter sagt ved ikke hvordan man gør det i nu.

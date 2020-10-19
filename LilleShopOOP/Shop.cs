@@ -13,7 +13,7 @@ namespace LilleShopOOP
         {
             List<Customer> customers = new List<Customer>();
             List<Item> items = new List<Item>();
-            AutoIncrement increment = new AutoIncrement();
+            
             int optionDecider;
             do
             {
@@ -22,29 +22,32 @@ namespace LilleShopOOP
                 switch (optionDecider)
                 {
                     case 1:
-                         customers.Add(MakeCustomer(increment.Id()));
+                        customers.Add(MakeCustomer());
+                        Console.WriteLine("Nuværende id: {0}", customers[customers.Count - 1].CustomerId);
                         break;
                     case 2:
-                        items.Add(MakeItem(increment.Id()));
+                        items.Add(MakeItem());
+                        Console.WriteLine("Nuværnde pris og Id: {0} {1}", items[items.Count - 1].ItemPrice, items[items.Count - 1].ItemId);
                         break;
                     case 3:
                         MakeOrder makeOrder = new MakeOrder(customers, items);
-                        makeOrder.printOrder();
+                        Console.WriteLine(makeOrder.GetOrder());
+                        Console.ReadLine();
                         break;
                     default:
                         break;
                 }
             } while (Exit(optionDecider)); 
         }
-        public static Customer MakeCustomer(int increment)
+        public static Customer MakeCustomer()
         {
 
-            Customer NewCustomer = new Customer(CustomerName(), CustomerEmail(), increment);
+            Customer NewCustomer = new Customer(CustomerName(), CustomerEmail());
             return NewCustomer;
         }
-        public static Item MakeItem(int increment)
+        public static Item MakeItem()
         {
-            Item item = new Item(ItemName(),ItemDiscription(), Price(), increment);
+            Item item = new Item(ItemName(),ItemDiscription(), Price());
             return item;
         }
         public static string CustomerName()
