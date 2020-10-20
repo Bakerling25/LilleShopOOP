@@ -7,7 +7,7 @@ namespace LittleShop_CL
     public abstract class ItemAutoIncrement
     {
         static int id = 1;
-        public virtual int Id()
+        protected virtual int Id()
         {
 
             return id++;

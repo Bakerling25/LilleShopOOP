@@ -4,10 +4,10 @@ using System.Text;
 
 namespace LilleShopOOP
 {
-    public abstract class CustomerAutoIncrement
+    public abstract class PersonAutoIncrement
     {
         static int id = 1;
-        public virtual int Id()
+        protected virtual int Id()
         {
             
             return id++;

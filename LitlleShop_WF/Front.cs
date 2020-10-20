@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using LittleShop_CL;
 
 namespace LitlleShop_WF
 {
@@ -12,6 +13,13 @@ namespace LitlleShop_WF
         public Front()
         {
             InitializeComponent();
+            
+        }
+        private void Front_Load(object sender, EventArgs e)
+        {
+            //listViewCustomer.Columns.Add("Kundenavn", 100);
+            
+
         }
 
         private void SubmitCustomerBtn_Click(object sender, EventArgs e)
@@ -46,10 +54,14 @@ namespace LitlleShop_WF
 
         private void ShowCustomersBtn_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < customers.Count - 1; i++)
-            {
-                dataGridViewCustomers.Columns[i].HeaderText = customers[i].FirstName;
-            }
+            FluidItem fluidItem = new FluidItem("kande", "Description", 5.00, 1);
+            //M
+
         }
+        public void LoadList()
+        {
+
+        }
+
     }
 }

@@ -1,0 +1,12 @@
+TO DO List:
+
+-Lav MakeOrder færdig( indsæt medtoder som tildeler items
+ til kunden og som sætter antallet af items.
+
+-indsæt kode i klassen NumberItem( konstrukter,proberties
+og medtoder(TBD))
+
+-Customer klassen mangler metoder som skal verificere email og input?
+
+-Mangler at lave en interface. find ud af om hvor det giver mest mening at bruge
+interfaces. 

@@ -1,19 +1,21 @@
 ﻿using LittleShop_CL;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace LilleShopOOP
 {
-    public class Item:ItemAutoIncrement
+    public abstract class Item:ItemAutoIncrement,IComparable<Item>//bare et forsøg
     {
         private int itemsId;
+        private int numberOfItems;
         private string itemName;
         private string itemDiscription;
         private double itemPrice;
         
 
-        public int ItemId
+        protected int ItemId
         {
             get
             {
@@ -24,7 +26,18 @@ namespace LilleShopOOP
                 itemsId = value;
             }
         }
-        public string ItemName
+        protected int NumberOfItems
+        {
+            get 
+            {
+                return numberOfItems;
+            }
+            set
+            {
+                numberOfItems = value;
+            }
+        }
+        protected string ItemName
         {
             get
             {
@@ -35,7 +48,7 @@ namespace LilleShopOOP
                 itemName = value;
             }
         }
-        public string ItemDiscription
+        protected string ItemDiscription
         {
             get
             {
@@ -46,7 +59,7 @@ namespace LilleShopOOP
                 itemDiscription = value;
             }
         }
-        public double ItemPrice
+        protected double ItemPrice
         {
             get
             {
@@ -57,20 +70,22 @@ namespace LilleShopOOP
                 itemPrice = value;
             }
         }
-        public Item(string name, string description, double price)
+        protected Item(string name, string description, double price)
         {
             itemsId = Id();
-            itemName = name;
-            itemDiscription = description;
             itemPrice = RoundPrice(price);
         }
-        public override int Id()
+        protected override int Id()
         {
             return base.Id();
         }
-        public double RoundPrice(double price)
+        protected double RoundPrice(double price)
         {
             return Math.Round(price,2);
+        }
+        public int CompareTo(Item item)
+        {
+            return 1;//mangler at skrive kode her
         }
 
     }
