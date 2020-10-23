@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LilleShopOOP
+namespace LittleShop_CL
 {
     public abstract class PersonAutoIncrement
     {

@@ -1,7 +1,4 @@
-﻿using LilleShopOOP;
-using System.Collections.Generic;
-
-namespace LittleShop_CL
+﻿namespace LittleShop_CL
 {
     public class Person:PersonAutoIncrement
     {

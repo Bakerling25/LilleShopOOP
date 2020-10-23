@@ -1,8 +1,7 @@
-﻿using LilleShopOOP;
+﻿using LittleShop_CL;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using LittleShop_CL;
 
 namespace LitlleShop_WF
 {
@@ -54,8 +53,8 @@ namespace LitlleShop_WF
 
         private void ShowCustomersBtn_Click(object sender, EventArgs e)
         {
-            FluidItem fluidItem = new FluidItem("kande", "Description", 5.00, 1);
-            //M
+            FluidItem fluidItem = new FluidItem("Vand", "Description", 5.00, 1);
+            //WeightItem weightItem = new WeightItem();
 
         }
         public void LoadList()

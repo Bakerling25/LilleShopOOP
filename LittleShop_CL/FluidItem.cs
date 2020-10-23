@@ -1,8 +1,8 @@
-﻿using LilleShopOOP;
+﻿using System;
 
 namespace LittleShop_CL
 {
-    public class FluidItem : Item
+    public class FluidItem : Item,IComparable<FluidItem>
     {
         private float fAmount;
         public float Famount
@@ -31,6 +31,10 @@ namespace LittleShop_CL
         public override string ToString()
         {
             return "vare nr:" + Famount + ItemName;
+        }
+        public int CompareTo(FluidItem fluidItem)
+        {
+            return 1;//Placeholder
         }
     }
 }

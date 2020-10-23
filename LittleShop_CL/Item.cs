@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace LilleShopOOP
+namespace LittleShop_CL
 {
-    public abstract class Item:ItemAutoIncrement,IComparable<Item>//bare et forsøg
+    public abstract class Item:ItemAutoIncrement//bare et forsøg
     {
         private int itemsId;
         private int numberOfItems;
@@ -21,7 +21,7 @@ namespace LilleShopOOP
             {
                 return itemsId;
             }
-            set
+            private set
             {
                 itemsId = value;
             }
@@ -72,8 +72,8 @@ namespace LilleShopOOP
         }
         protected Item(string name, string description, double price)
         {
-            itemsId = Id();
-            itemPrice = RoundPrice(price);
+            ItemId = Id();
+            ItemPrice = RoundPrice(price);
         }
         protected override int Id()
         {
@@ -83,10 +83,7 @@ namespace LilleShopOOP
         {
             return Math.Round(price,2);
         }
-        public int CompareTo(Item item)
-        {
-            return 1;//mangler at skrive kode her
-        }
+        
 
     }
 }

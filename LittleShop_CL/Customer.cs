@@ -1,7 +1,7 @@
 ﻿using LittleShop_CL;
 using System.Collections.Generic;
 
-namespace LilleShopOOP
+namespace LittleShop_CL
 {
     public class Customer:Person
     {
